@@ -1,5 +1,8 @@
 public class HelloWorld {
+
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+       var name = "Nikita";
+       System.out.printf("%s wrote this code%n", name);
     }
 }
